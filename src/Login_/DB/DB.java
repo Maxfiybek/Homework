@@ -1,13 +1,11 @@
 package Login_.DB;
 
-import Login_.User;
-
 public class DB {
     private User user;
     private final MyList<User> userBase = new MyList<>();
     private final MyList<User> emailBase = new MyList<>();
     private final MyList<Telephone> telephoneBase = new MyList<>();
-    private static DB instance;
+    private static DB instance = null;
 
     private DB() {
     }
@@ -20,7 +18,11 @@ public class DB {
     }
 
     public void setUser(User user) {
-        userBase.add(user);
+        if (!userBase.contains(user)) {
+            userBase.add(user);
+        } else {
+            System.out.println("Siz allaqachon qo`shilgansiz !");
+        }
     }
 
     public boolean checkPhone(User user) {
