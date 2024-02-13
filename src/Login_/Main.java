@@ -46,7 +46,6 @@ public class Main {
 
                         User user = new User(telephone, name, lastName, age);
                         System.out.println(user);
-                        dataBase.setUser(user);
                         System.out.println(dataBase);
                     } else {
                         System.out.println("Siz kodni noto`g`ri kiritdingiz qayta urinib ko`ring !");
@@ -64,7 +63,6 @@ public class Main {
                     String emailCode = scanner.nextLine();
 
                     User user = new User(email, emailCode);
-                    dataBase.setEmailAdress(user);
                     System.out.println("Siz muvafaqiyatli kirdingiz !  \nSizni ma`lumotlaringiz qaayta kirishingiz uchun saqlanib qoladi !");
                     System.out.println(user.getUserEmail());
 
