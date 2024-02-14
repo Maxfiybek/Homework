@@ -1,9 +1,4 @@
 package FactoryPattern_Project;
-
-import FactoryPattern_Project.FactoryWorker;
-import FactoryPattern_Project.WorkCreator;
-import FactoryPattern_Project.Worker;
-
 import java.util.Scanner;
 
 public class Main {
