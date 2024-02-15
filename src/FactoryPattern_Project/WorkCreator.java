@@ -14,7 +14,7 @@ public class WorkCreator extends FactoryWorker {
             case "Mechanic" -> new Mechanic(name,age);
             case "Cleaner" -> new Cleaner(name,age);
             case "Teacher" -> new Teacher(name,age);
-            default -> throw new IllegalStateException("Unexpected value: " + name);
+            default -> throw new RuntimeException(name);
         };
     }
 }

@@ -11,7 +11,7 @@ public class Main {
         int age = scanner.nextInt();
 
 
-        Worker worker = workCreator.createWorker(name,age);
+        Worker worker = workCreator.createWorkerWrapper(name,age);
         System.out.println(worker.getDutyPerson());
         System.out.println("Ishchi kasbi: " + worker.getName());
         System.out.println("Ishchi yoshi: " + worker.getAge());
