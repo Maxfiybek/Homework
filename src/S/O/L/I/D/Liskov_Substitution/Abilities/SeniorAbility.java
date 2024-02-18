@@ -1,6 +1,6 @@
-package Liskov_Substitution.Abilities;
+package S.O.L.I.D.Liskov_Substitution.Abilities;
 
-import Liskov_Substitution.Restaurant;
+import S.O.L.I.D.Liskov_Substitution.Restaurant;
 
 public interface SeniorAbility extends MiddleAbility, JuniorAbility {
     Restaurant canCookPalov();

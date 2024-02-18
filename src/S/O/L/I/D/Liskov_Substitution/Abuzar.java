@@ -1,6 +1,6 @@
-package Liskov_Substitution;
+package S.O.L.I.D.Liskov_Substitution;
 
-import Liskov_Substitution.Abilities.MiddleAbility;
+import S.O.L.I.D.Liskov_Substitution.Abilities.MiddleAbility;
 
 import java.util.function.Consumer;
 
