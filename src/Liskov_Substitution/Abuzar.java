@@ -9,13 +9,13 @@ public class Abuzar implements MiddleAbility {  //Chefni sub clasi
 
     @Override
     public Restaurant canCookManti() {
-        messager.accept("Abuzar manti pishira oladi !");
+        messager.accept("OtaClass manti pishira oladi !");
         return null;
     }
 
     @Override
     public Restaurant canCookKabob() {
-        messager.accept("Abuzar kabob ham pishira oladi !");
+        messager.accept("OtaClass kabob ham pishira oladi !");
         return null;
     }
 }

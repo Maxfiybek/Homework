@@ -9,19 +9,19 @@ public class Chef implements SeniorAbility {
 
     @Override
     public Restaurant canCookPalov() {
-        messager.accept("Chef palov pishira oladi !");
+        messager.accept("Subclass palov pishira oladi !");
         return null;
     }
 
     @Override
     public Restaurant canCookManti() {
-        messager.accept("Chef manti pishira oladi !");
+        messager.accept("Subclass manti pishira oladi !");
         return null;
     }
 
     @Override
     public Restaurant canCookKabob() {
-        messager.accept("Chef kabob pishia oladi !");
+        messager.accept("Subclass kabob pishia oladi !");
         return null;
     }
 }

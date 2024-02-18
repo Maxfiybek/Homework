@@ -9,7 +9,7 @@ public class Ahmed implements JuniorAbility {
 
     @Override
     public Restaurant canCookKabob() {
-        messager.accept("Ahmed kabob pishira oladi !");
+        messager.accept("BoboClass kabob pishira oladi !");
         return null;
     }
 }
